@@ -1,0 +1,104 @@
+/* IMAGE ET TEXTE ACCUEIL */
+.affichageEntree{
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 475px;
+}
+
+.affichageEntree h1{
+    color: lightgrey;
+    font-weight: bold;
+}
+
+.separateurAccueil hr{
+    border-color: lightgrey;
+    border-width: 5px;
+    /*padding-top: 30px;*/
+    max-width: 50px;
+    margin-bottom: 0px;
+}
+
+.sousTitre{
+    padding-top: 0px;
+    margin-top: 15px;
+}
+
+.smallText{
+    color: lightgrey;
+}
+
+.buttonInfo:hover{
+    background-color: #57595D;
+}
+
+.buttonInfo{
+    max-width: 200px;
+    height: 50px;
+    margin: auto;
+    border-radius: 25px;
+}
+
+.buttonInfo p{
+    padding-top: 12px;
+}
+
+/* Offre service */
+
+.offreServices{
+    background-color: #57595D;
+    text-align: center;
+    align-content: center;
+    height: 350px;
+}
+
+.offreServices h1{
+    color: lightgrey;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.offreServices .smallText{
+    font-size: 14px;
+}
+
+#separateurOffreServices hr{
+    border-color: lightgrey;
+    border-width: 5px;
+    max-width: 50px;
+    margin-bottom: 0px;
+}
+
+.buttonDownload{
+    max-width: 200px;
+    height: 50px;
+    margin: auto;
+    border-radius: 25px;
+    padding-top: 12px;
+    background-color: slategrey;
+}
+
+.buttonDownload:hover{
+    background-color: #5bc0de;
+}
+
+/* ICONES */
+
+.icon{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#separateurIcones hr{
+    border-color: black;
+    border-width: 5px;
+    max-width: 50px;
+    margin-bottom: 0px;
+}
+ .imgFin{
+     background-image: url("../img/webDev4.jpg");
+     background-size: cover;
+     height: 200px;
+ }
