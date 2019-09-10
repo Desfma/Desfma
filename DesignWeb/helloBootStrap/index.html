@@ -1,0 +1,44 @@
+<!-- Xl = 1200px et plus -->
+<!-- Lg = 992px à 1200px -->
+<!-- Md = 768px à 992px -->
+<!-- Sm = 576px à 768px -->
+<!-- col- = plus petit que 576px -->
+
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+<!--     meta name="viewport" met le zoom à 0 du naviguateur TRES IMPORTANT ET OBLIGATOIRE DE LE METTRE -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cours BootStrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="container-fluid"> <!-- container fluid = gros rectangle qui prend 100% du site en largeur -->
+    <div class="row"> <!--Représente une ligne -->
+        <div class="col-xl-6 col-lg-9 rouge">
+            <h1 class="text-center">6/12 de large de la page</h1>
+        </div>
+        <div class="col-xl-6 col-lg-3 bleu">
+            <h1 class="text-center">6/12 de large de la page</h1>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<!-- IMPORTANT L'ORDRE DE CES DEUX SCRIPTS DOIT TOUJOURS ÊTRE COMME CI_DESSOUS -> JQUERY AVANT BOOTSTRAP,-->
+<!--CAR JQUERY A BESOIN DE BOOTSTRAP POUR "VIVRE"... NOTRE FICHIER JS DOIT ËTRE À LA FIN DE CES DERNIERS -->
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>

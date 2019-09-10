@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+    <!--     meta name="viewport" met le zoom à 0 du naviguateur TRES IMPORTANT ET OBLIGATOIRE DE LE METTRE -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Cours BootStrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<div class="container-fluid"> <!-- container fluid = gros rectangle qui prend 100% du site en largeur -->
+    <div class="row"> <!--Représente une ligne -->
+        <div id="num6r" class="offset-xl-3 col-xl-9 col-12 red">
+            <h1 class="text-center">6/12 de large de la page</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-3 col-6 vert">
+            <h1 class="text-center">6/12 de large de la page</h1>
+        </div>
+        <div class="col-xl-9 col-6">
+            <h1 class="text-center">6/12 de large de la page</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xl-6 col-12 jaune">
+            <h1 class="text-center">Toute la page</h1>
+        </div>
+        <div id="num6v" class="offset-xl-3 col-xl-3 col-12 jaune">
+            <h1 class="text-center">Toute la page</h1>
+        </div>
+    </div>
+</div>
+
+
+<!-- IMPORTANT L'ORDRE DE CES DEUX SCRIPTS DOIT TOUJOURS ÊTRE COMME CI_DESSOUS -> JQUERY AVANT BOOTSTRAP,-->
+<!--CAR JQUERY A BESOIN DE BOOTSTRAP POUR "VIVRE"... NOTRE FICHIER JS DOIT ËTRE À LA FIN DE CES DERNIERS -->
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/bootstrap.js"></script>
+
+</body>
+</html>

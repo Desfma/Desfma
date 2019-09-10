@@ -1,0 +1,77 @@
+.rouge{
+    height: 175px; /* on ne définit jamais de hauteur fixe sinon, on tue le responsive *!*/
+    background-color: red;
+}
+.bleu{
+    height: 350px;
+    background-color: blue;
+}
+.jaune{
+    height: 300px;
+    background-color: yellow;
+}
+.vert{
+    height: 200px;
+    background-color: green;
+}
+
+#num2r{
+    height: 175px; /* on ne définit jamais de hauteur fixe sinon, on tue le responsive *!*/
+    background-color: red;
+}
+
+#num3r{
+    height: 175px; /* on ne définit jamais de hauteur fixe sinon, on tue le responsive *!*/
+    background-color: red;
+}
+
+#num5r{
+    height: 175px; /* on ne définit jamais de hauteur fixe sinon, on tue le responsive *!*/
+    background-color: red;
+    border: 1px solid black;
+}
+#num6r{
+    height: 225px; /* on ne définit jamais de hauteur fixe sinon, on tue le responsive *!*/
+    background-color: red;
+    border: 1px solid black;
+}
+
+#num2v{
+    height: 175px; /* on ne définit jamais de hauteur fixe sinon, on tue le responsive *!*/
+    background-color: green;
+}
+
+#num3v{
+    height: 175px; /* on ne définit jamais de hauteur fixe sinon, on tue le responsive *!*/
+    background-color: green;
+    border: 1px solid black;
+}
+
+#num4v{
+    height: 175px; /* on ne définit jamais de hauteur fixe sinon, on tue le responsive *!*/
+    background-color: green;
+    border: 1px solid black;
+}
+
+#num5v{
+    height: 175px; /* on ne définit jamais de hauteur fixe sinon, on tue le responsive *!*/
+    background-color: green;
+    border: 1px solid black;
+}
+#num6v{
+    height: 300px; /* on ne définit jamais de hauteur fixe sinon, on tue le responsive *!*/
+    background-color: green;
+    border: 1px solid black;
+}
+
+#num4b{
+    height: 175px; /* on ne définit jamais de hauteur fixe sinon, on tue le responsive *!*/
+    background-color: blue;
+    border: 1px solid black;
+}
+
+#num5b{
+    height: 175px; /* on ne définit jamais de hauteur fixe sinon, on tue le responsive *!*/
+    background-color: blue;
+    border: 1px solid black;
+}
