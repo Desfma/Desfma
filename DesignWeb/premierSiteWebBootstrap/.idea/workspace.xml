@@ -28,11 +28,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -61,6 +61,7 @@
       <workItem from="1568058538938" duration="5847000" />
       <workItem from="1568119247794" duration="7941000" />
       <workItem from="1568303675776" duration="189000" />
+      <workItem from="1568661394803" duration="2762000" />
     </task>
     <servers />
   </component>
