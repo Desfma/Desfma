@@ -1,0 +1,102 @@
+html, body {
+    font-size: 10px;
+    height: 100%;
+}
+
+.card-body{
+    border-radius: 5px;
+}
+/* Partie Gauche du site */
+#colGauche{
+    color: white;
+
+}
+
+.card-title{
+    font-size: 2rem;
+}
+
+.btn-info{
+    font-size: 1.2rem;
+}
+
+.xInfo{
+    float: right;
+}
+
+.publicity h5{
+    font-weight: bold;
+}
+
+.lien{
+    font-size: 1.4rem;
+}
+
+.publicity{
+    font-size: 1.8rem;
+}
+
+.btnDark{
+    background-color: lightslategrey;
+    border: none;
+    border-radius: 3px;
+}
+
+.btnDarkBlue{
+    background-color: darkblue;
+    border: none;
+    border-radius: 3px;
+}
+
+.btnGreen{
+    background-color: green;
+    border: none;
+    border-radius: 3px;
+}
+
+.btnLtBlue{
+    background-color: lightskyblue;
+    border: none;
+    border-radius: 3px;
+}
+
+.btnOrange{
+    background-color: darkorange;
+    border: none;
+    border-radius: 3px;
+}
+
+.btnRed{
+    background-color: darkred;
+    border: none;
+    border-radius: 3px;
+}
+
+/* Partie centre site */
+#colCenter h5{
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.btnLike{
+    font-size: 1.4rem;
+    border-color: darkgrey;
+    float: left;
+    border-radius: 3px;
+    width: 80px;
+}
+
+.textBulle{
+    font-size: 1.5rem;
+}
+
+/* Partie droit du site */
+#colDroit{
+    color: white;
+}
+
+#colDroit .btn-info{
+    font-size: 1.8rem;
+    width: 80px;
+    border-radius: 5px;
+}
