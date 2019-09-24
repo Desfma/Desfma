@@ -1,0 +1,121 @@
+html, body {
+    font-size: 10px;
+    height: 100%;
+}
+
+/* PAGE PRINCIPAL */
+.navbar{
+    background-color: blue;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+    background-image: url("../Img/menu.png");
+    height: 2.5rem;
+    width: 2.5rem;
+
+}
+
+#menuPrincipal a {
+    color: darkred;
+}
+
+.navbar-brand{
+    font-size: 2.8rem;
+}
+
+#imgPrincipal{
+    height: 5rem;
+    margin-right: 10px;
+}
+
+#navMenu1{
+    font-size: 1.8rem;
+}
+
+#navMenu1 li a{
+    color: darkred;
+}
+
+#dropdownMenuButton1{
+    background-color: transparent;
+    border: transparent;
+    border: none;
+    color: darkred;
+}
+
+#fontAwsome div{
+    margin-right: 20px;
+}
+
+/* Pied de page */
+footer{
+    clear: both;
+    background-color: black;
+
+
+    color: white;
+    font-size: 1.4rem;
+}
+footer ul{
+    list-style: none;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Page Pirates */
+#menuPrincipalP{
+    background-color: #ffe8a1;
+}
+#menuPrincipalP .nav-item a{
+    color: black;
+}
+
+#dropdownMenuButton2{
+    background-color: transparent;
+    border: transparent;
+    border: none;
+    color: black;
+}
+
+#menuPrincipalP .navbar-nav li .dropdown-menu {
+    background-color: #ffe8a1; }
+
+/* Page Dota2 */
+#menuPrincipalD{
+    background-color: black;
+}
+
+#menuPrincipalD .nav-item a{
+     color: white;
+}
+
+#dropdownMenuButton3{
+    background-color: transparent;
+    border: transparent;
+    border: none;
+    color: white;
+}
+
+#menuPrincipalD .navbar-nav li .dropdown-menu {
+    background-color: black; }
+
+/* Page Arbres */
+#menuPrincipalA{
+    background-color: saddlebrown;
+}
+
+#menuPrincipalA .nav-item a{
+    color: yellowgreen;
+}
+
+#dropdownMenuButton4{
+    background-color: transparent;
+    border: transparent;
+    border: none;
+    color: yellowgreen;
+}
+
+#menuPrincipalA .navbar-nav li .dropdown-menu {
+    background-color: saddlebrown; }
+
+

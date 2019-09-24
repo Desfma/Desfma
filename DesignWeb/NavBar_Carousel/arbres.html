@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/png" href="Img/menu.png" id="imageCompagnie">
+    <title >Projet Nav / Carousel</title>
+
+
+    <link rel="stylesheet" href="Css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+
+<div class="container-fluid p-5">
+    <div class="row">
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light" id="menuPrincipalA">
+            <img src="Img/menu.png" class="img-fluid" id="imgPrincipal">
+            <a class="navbar-brand">ProjetInfo</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu1"   aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu1">
+                <ul class="navbar-nav">
+                    <li class="nav-item active"><a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="pirates.html">Pirates</a></li>
+                    <li class="nav-item">
+                        <div class="dropdown">
+                            <button class="nav-link dropdown-toggle" type="button" id="dropdownMenuButton4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dota2
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="dota2.html">Dota2 images</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="arbres.html">Arbres</a></li>
+                </ul>
+            </div>
+            <div class="collapse navbar-collapse no-gutters align-items-center text-center justify-content-end" id="fontAwsome">
+                <div>
+                    <i class="fab fa-facebook fa-3x"></i>
+                    <h3>Facebook</h3>
+                </div>
+                <div>
+                    <i class="fab fa-twitter-square fa-3x"></i>
+                    <h3>Twitter</h3>
+                </div>
+                <div>
+                    <i class="fab fa-instagram fa-3x"></i>
+                    <h3>Instagram</h3>
+                </div>
+            </div>
+        </nav>
+    </div>
+</div>
+
+<div class="container-fluid text-center align-items-center">
+    <div class="row">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ul class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ul>
+
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-fluid" src="Img/arbreImg1.jpg" alt="Bateau de Pirates">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid" src="Img/arbreImg2.jpg" alt="Bateau de Pirates">
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid" src="Img/arbreImg3.jpg" alt="Bateau de Pirates">
+                </div>
+            </div>
+
+            <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#myCarousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid">
+    <div class="row align-items-center text-center py-3">
+        <div class="col-xl-2 col-md-4">
+            <img src="Img/grincheux.jpg" class="img-fluid no-gutters"/>
+            <h3>Il ne suffit pas d'être grincheux!</h3>
+        </div>
+        <div class="col-xl-2 col-md-4">
+            <img src="Img/grincheux.jpg" class="img-fluid no-gutters"/>
+            <h3>Il ne suffit pas d'être grincheux!</h3>
+        </div>
+        <div class="col-xl-2 col-md-4">
+            <img src="Img/grincheux.jpg" class="img-fluid no-gutters"/>
+            <h3>Il ne suffit pas d'être grincheux!</h3>
+        </div>
+        <div class="col-xl-2 col-md-4">
+            <img src="Img/grincheux.jpg" class="img-fluid no-gutters"/>
+            <h3>Il ne suffit pas d'être grincheux!</h3>
+        </div>
+        <div class="col-xl-2 col-md-4">
+            <img src="Img/grincheux.jpg" class="img-fluid no-gutters"/>
+            <h3>Il ne suffit pas d'être grincheux!</h3>
+        </div>
+        <div class="col-xl-2 col-md-4">
+            <img src="Img/grincheux.jpg" class="img-fluid no-gutters"/>
+            <h3>Il ne suffit pas d'être grincheux!</h3>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container-fluid">
+        <div class="row align-items-center text-center">
+            <div class="col-xl-4 col-md-4 listes">
+                <ul>
+                    <li>Petites annonces</li>
+                    <li>Petites annonces</li>
+                    <li>Petites annonces</li>
+                </ul>
+            </div>
+            <div class="col-xl-4 col-md-4 listes">
+                <ul>
+                    <li>Petites annonces</li>
+                    <li>Petites annonces</li>
+                    <li>Petites annonces</li>
+                </ul>
+            </div>
+            <div class="col-xl-4 col-md-4 listes">
+                <ul>
+                    <li>Petites annonces</li>
+                    <li>Petites annonces</li>
+                    <li>Petites annonces</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+<script src="Js/jquery-3.4.1.min.js"></script>
+<script src="Js/bootstrap.js"></script>
+<script src="Js/js.js"></script>
+
+</body>
+</html>
