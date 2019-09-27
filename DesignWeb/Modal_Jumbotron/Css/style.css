@@ -1,0 +1,41 @@
+html, body {
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+    background-image: url("../Img/centreBell.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+
+/* Modal */
+
+#ouvrirPartie{
+    font-size: 3rem;
+}
+
+.jumbotron{
+    height: 100vh;
+
+}
+
+.nomEquipe{
+    font-size: 3rem;
+}
+
+#CH{
+    margin-top: 5rem;
+}
+
+#ML{
+    height: 310px;
+}
+.vs{
+    margin-top: 20rem;
+    font-size: 10rem;
+}
+
+.horaire{
+    font-size: 2rem;
+}
+
