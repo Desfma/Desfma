@@ -149,7 +149,7 @@ html, body {
     background-image: url("../Img/cheminLevant.jpg");
 
     /* L’hauteur du Parallax */
-    height: 1024px;
+    height: 100%;
 
     /* Création de l’effet */
     background-attachment: fixed;
@@ -251,9 +251,5 @@ html, body {
     .respDioc{
         display: none;
     }
-
-}
-
-@media print {
 
 }
