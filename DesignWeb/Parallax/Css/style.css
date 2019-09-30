@@ -1,0 +1,259 @@
+html, body {
+    font-size: 10px;
+    margin: 0;
+    height: 100%;
+}
+
+/* Menu naviguateur */
+#logoMenu{
+    height: 7rem;
+    mix-blend-mode: multiply;
+}
+
+#menuPrincipal{
+    background-color: #953100;
+    border: 2px solid black;
+}
+
+.navbar-brand{
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+#navMenu1{
+    font-size: 1.6rem;
+}
+
+#navMenu1 a{
+    color: white;
+    font-weight: bold;
+}
+
+#dropdownMenuButton{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(255, 165, 121);
+}
+
+#menuPrincipal .navbar-nav li .dropdown-menu{
+    background-color: #953100;
+    font-size: 1.4rem;
+
+}
+
+
+/* Parallax entrée */
+.parallaxEntree {
+    /* L’image du Parallax */
+    background-image: url("../Img/dioceseNicolet.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.citationAccueil{
+    background-color: rgba(149,49,0,0.75);
+    margin-top: 250px;
+}
+
+#bienvenue{
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+.finAccueil{
+    background-color: white;
+    background-size: cover;
+}
+
+
+/* Section Bref historique */
+.brefHistorique{
+    border: 5px solid rgb(255, 204, 153);
+}
+
+.brefHistorique h1{
+    font-size: 4rem;
+}
+
+.historiqueStatistique{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+
+.brefHistorique p{
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+.imgHistorique{
+    height: 585px;
+    border: 5px solid rgb(255, 204, 153);
+}
+
+.btnHistorique{
+    background-color: #953100;
+    border-color: #953100;
+    font-size: 1.6rem;
+}
+
+.btnHistorique:hover{
+    background-color: rgb(255, 165, 121);
+    border-color: rgb(255, 165, 121);
+}
+
+
+/* Parallax Mouvements issus du Cursillo */
+.parallaxMovIssus {
+    /* L’image du Parallax */
+    background-image: url("../Img/bgEF.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 1500px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+}
+
+/*.mouvementIssusTitre h1{*/
+/*    font-size: 5rem;*/
+/*    font-weight: bold;*/
+/*}*/
+
+.imgEtincelle{
+    height: 152px;
+    mix-blend-mode: multiply;
+}
+
+.imgFlambee{
+    mix-blend-mode: multiply;
+}
+
+/* Parallax Autres Activites */
+.parallaxAutresActivites{
+    /* L’image du Parallax */
+    background-image: url("../Img/cheminLevant.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 1024px;
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Section L'Équipe*/
+.animSprt{
+    background-color: rgb(255, 204, 153);
+}
+
+.respDioc{
+    background-color: rgb(255, 165, 121);
+}
+
+.secretariat{
+    background-color: rgb(149,49,0);
+}
+
+#lEquipe h1{
+    font-size: 3rem;
+    color: black;
+}
+
+#lEquipe p{
+    font-size: 1.6rem;
+    color: black;
+}
+
+.emphase{
+    font-size: 1.8rem;
+}
+
+/* Blocs */
+.fondBlock{
+    background-color: rgba(255, 165, 121,0.50);
+}
+
+.fondBlock h1{
+    font-size: 2.6rem;
+    font-weight: bold;
+}
+
+.fondBlock p{
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 480px){
+    /* Modification de l'image d'entrée */
+    .parallaxEntree {
+        /* L’image du Parallax */
+        background-image: url("../Img/maisonFormation.jpg");
+
+        /* L’hauteur du Parallax */
+        height: 100%;
+
+        /* Création de l’effet */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .citationAccueil h1{
+        font-size: 2rem;
+    }
+
+    #bienvenue{
+        font-size: 3rem;
+        font-weight: bold;
+    }
+
+    .finAccueil{
+        display: none;
+    }
+
+    /* Enlève la partie 2 du bref historique */
+    #historiqueStatistique{
+        display: none;
+    }
+
+    .parallaxMovIssus{
+        height: auto;
+
+    }
+
+    .imgEtincelle{
+        height: 100px;
+    }
+
+    .animSprt{
+        display: none;
+    }
+
+    .respDioc{
+        display: none;
+    }
+
+}
+
+@media print {
+
+}
