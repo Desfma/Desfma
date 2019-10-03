@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Exercice Formulaire</title>
+
+    <link rel="stylesheet" href="Css/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+
+<body>
+<form action="formulaireEnvoye.html" class="m-5">
+    <div class="form-row">
+        <div class="form-group col-xl-6">
+            <label for="nameUser">Prénom</label>
+            <input type="text" class="form-control input-group-sm" id="nameUser" placeholder="Prénom">
+        </div>
+
+    </div>
+    <div class="form-row">
+        <div class="form-group col-xl-6">
+            <label for="lastName">Nom</label>
+            <input type="text" class="form-control input-group-sm" id="lastName" placeholder="Nom">
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-xl-6">
+            <label for="question">Question</label>
+            <textarea class="form-control input-group-lg" id="question" rows="5" placeholder="Question"></textarea>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="form-group col-xl-6">
+            <label for="inputSujet">Sujet</label>
+            <select id="inputSujet" class="form-control">
+                <option selected>Choisir</option>
+                <option>HTML</option>
+                <option>CSS</option>
+                <option>BootStrap</option>
+                <option>Positionnement des divisions</option>
+                <option>Autres</option>
+            </select>
+        </div>
+    </div>
+    <div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="importance" id="urgent" value="option1" checked>
+            <label class="form-check-label ml-2" for="urgent">
+                Urgent
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="importance" id="important" value="option2">
+            <label class="form-check-label ml-2" for="important">
+                Important
+            </label>
+        </div>
+        <div class="form-check">
+            <input class="form-check-input" type="radio" name="importance" id="peutAttendre" value="option3">
+            <label class="form-check-label ml-2" for="peutAttendre">
+                Peut Attendre
+            </label>
+        </div>
+    </div>
+    <div class="mt-5">
+        <button type="submit" class="btn btn-success"></a>Envoyer</button>
+        <button type="reset" class="btn btn-danger">Reset</button>
+    </div>
+
+</form>
+
+
+</body>
+
+
+
+
+
+<!---->
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+<script src="Js/jquery-3.4.1.min.js"></script>
+<script src="Js/bootstrap.js"></script>
+<script src="Js/js.js"></script>
+
+</body>
+</html>
